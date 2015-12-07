@@ -8,8 +8,11 @@ categories:
 ### 想想明年是杜教出题，就果断开了数学的坑
 <br>
 <del>简直是坑坑坑 </del><br>
+
 <!--more--><br>
----<br>
+
+---
+<br>
 
 <br><br>
 
@@ -48,14 +51,6 @@ $$a_j=\frac{1}{n} \sum_{k=0}^{n-1}y_k w_n^{-kj}$$<br>
 咦..这看起来很熟悉的样子..<br>
 我们知道在系数向点值转化的时候$$y_j=\sum_{k=0}^{n-1}a_k w_n^{kj}$$<br>
 那我们岂不是把$$w_n$$取一下共轭复数，再与上面的FFT过程运行一样的操作不就好了？<br>
-<br><br>
-上面说了那么多...可是似乎代码还是不会写啊...<br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-## 背板大法好
-
 <br><br>
 
 ---<br>
@@ -215,7 +210,7 @@ $$ax+by=d$$存在整数解的充分必要条件是$$d|gcd(a,b)$$<br>
 
 # 拉格朗日定理与威尔逊定理
 
-拉格郎日定理：$$p为素数,f(x)为整系数多项式，f(x)=a_nx^n+a_{n-1}x^{n-1}+ \cdots +a_0，p \nmid a_n$$<br>
+拉格郎日定理：$If p is a prime && a_(i) are all intergers，f(x)=a_nx^n+a_{n-1}x^{n-1}+ \cdots +a_0，p \nmid a_n$$<br>
 那么$$f(x) \equiv 0 ~~ (mod ~~ p)$$ 最多只有$$n$$个解。<br>
 数学归纳法显然....<br>
 <br><br>
