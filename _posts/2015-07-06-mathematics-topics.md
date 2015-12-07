@@ -446,7 +446,9 @@ $$D_{rev}(x) \equiv A_{rev}(x)[B_{rev}(x)]^{-1} ~~ (mod ~~ x^{n-m+1})$$<br>
 ---<br>
 
 <br><br>
-# 生成函数<br>
+
+# 生成函数
+
 也叫母函数..<br>
 因为之前MO已经学过了母函数所以觉得非常显然= =<br>
 一般生成函数主要用于取东西时系数为1的的时候。<br>
@@ -574,18 +576,31 @@ $$~~~~~~~~~~~~~~~=\sum_{i=1}^{\lfloor\frac{n}{d}\rfloor}\sum_{j=1}^{\lfloor\frac
 $$~~~~~~~~~~~~~~~=\sum_{i=1}^{\lfloor\frac{n}{d}\rfloor}\sum_{j=1}^{\lfloor\frac{n}{d}\rfloor}\sum_{k|gcd(i,j)}\mu(k)$$<br>
 $$~~~~~~~~~~~~~~~=\sum_{k=1}^{\lfloor\frac{n}{d}\rfloor}\mu(k)\lfloor\frac{n}{kd}\rfloor\lfloor\frac{n}{kd}\rfloor$$<br>
 $$~~~~~~~~~~~~~~~$$再次是喜闻乐见的下底函数分块....<br>
+
 bzoj 2301:同上...<br>
+
 bzoj 1005:球$$\sum_{i=1}^{n}\sum_{j=1}^{n}gcd(i,j)$$<br>
+
 $$~~~~~~~~~~~~~~~$$令$$f(i)$$表示$$gcd(x,y)==i$$的个数。。暴力容斥就没啦...<br>
+
 bzoj 2705:同上...<br>
+
 bzoj 1441:由裴蜀定理易知答案为所有的gcd..<br>
+
 bzoj 2257:首先，根据裴蜀定理，选择几个数字，可以得到的答案为他们的最大公约数<br>
+
 $$~~~~~~~~~~~~~~~$$于是我们可以求出每个数的所有因数，然后排序，找最大的且个数大等于k的因数<br>
+
 bzoj 2299:注意到题目中相当于有4种操作<br>
+
 $$~~~~~~~~~~~~~~~x或y +-2a$$<br>
+
 $$~~~~~~~~~~~~~~~x或y +-2b$$<br>
+
 $$~~~~~~~~~~~~~~~x+a，y+b$$<br>
+
 $$~~~~~~~~~~~~~~~x+b，y+a$$<br>
+
 $$~~~~~~~~~~~~~~~$$而3，4操作最多用1次，枚举3，4使用或不使用然后裴蜀定理判定即可<br>
 bzoj 3667:Miller-Rabin && pollard-rho 板子题.<br>
 bzoj 1923:高斯消元解xor方程组..<br>
@@ -647,7 +662,7 @@ $$~~~~~~~~~~~~~~~=\sum_{i=1}^{n}\sum_{j=1}^{n}\sum_{d|gcd(i,j)}\frac{ijd}{gcd(i,
 $$~~~~~~~~~~~~~~~=\sum_{i=1}^{n}\sum_{j=1}^{n}\sum_{d|gcd(i,j)}lcm(i,j)d$$<br>
 $$~~~~~~~~~~~~~~~=\sum_{d=1}^{n}\sum_{i=1}^{\lfloor\frac{n}{d}\rfloor}\sum_{j=1}^{\lfloor\frac{n}{d}\rfloor}lcm(id,jd)d$$<br>
 $$~~~~~~~~~~~~~~~=\sum_{d=1}^{n}d^2\sum_{i=1}^{\lfloor\frac{n}{d}\rfloor}\sum_{j=1}^{\lfloor\frac{n}{d}\rfloor}lcm(i,j)$$<br>
-$$~~~~~~~~~~~~~~~记f(n)=\sum_{i=1}^{n}\sum_{j=1}^{n}lcm(i,j)$$
+$$~~~~~~~~~~~~~~~记f(n)=\sum_{i=1}^{n}\sum_{j=1}^{n}lcm(i,j)$$<br>
 $$~~~~~~~~~~~~~~~原式=\sum_{d=1}^{n}d^2f(\lfloor \frac{n}{d} \rfloor)$$<br>
 $$~~~~~~~~~~~~~~~$$直接下底函数分块有点虚..来让我们预处理一下答案..<br>
 $$~~~~~~~~~~~~~~~$$考虑每个$$d$$对答案的贡献..按照$$\lfloor\frac{n}{d}\rfloor$$的变化分块...<br>
