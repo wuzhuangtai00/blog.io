@@ -1,18 +1,12 @@
 ---
- <br>layout: post
- <br>title: 'USACO杂做'
- <br>date: 2015-10-18 11:40
- <br>comments: true
- <br>categories: 
- <br>---
- <br>
- <br>
- <br>
- <br><br>
- <br><div align="center"><span style="font-size:80px;color:#7bbfea;"   >10/40</span></p></div>
- <br><br>
- <br>
- <br>---
+layout: post
+title: 'USACO杂做'
+date: 2015-10-18 11:40
+comments: true
+categories: 
+---
+<div align="center"><span style="font-size:80px;color:#7bbfea;"   >10/40</span></p></div>
+---
  <br><!--more-->
  <br>
  <br>1.DEC06 像KMP一样摞一摞就好啦
