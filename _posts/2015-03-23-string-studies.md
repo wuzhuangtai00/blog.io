@@ -47,6 +47,7 @@ AC自动机其实是一个很暴力的东西<br>
 利用倍增来求出sa,rank数组，最后利用这两个数组来求出height数组..<br>
 ...相同的题目用Suffix Tree或者Suffix Automan会更直接...<br>
 <br>
+
 ---
 
 # 后缀自动机
