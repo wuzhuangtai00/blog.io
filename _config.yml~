@@ -21,7 +21,7 @@ twitter_username: feat
 github_username: cnfeat
 facebook_username: 
 weibo_username: cnfeat 
-zhihu_username: feat
+zhihu_username: wuzhuangtai00
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -51,7 +51,7 @@ defaults:
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : cnfeat
+    short_name : wuzhuangtai00
   disqus :
       short_name : wuzhuangtai00
 

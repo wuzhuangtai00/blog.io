@@ -4,24 +4,24 @@ header-img: "img/facebook.jpg"
 tagline: "cn"  
 description: "陈素封|读而立·写而生"  
 baseurl: ""
-url: "http://cnfeat"  
+url: "http://wuzhuangtai00.win"  
 
 # About/contact
 owner: 
   name: "wjz"
   email: wjzwzt@gmail.com
-  bio: "写就是写的报酬"
+  bio: "Wjz's Blog"
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.png
 
-douban_username:  cnfeat
-twitter_username: feat
-github_username: cnfeat
+douban_username:  wuzhuangtai00
+twitter_username: wuzhuangtai00
+github_username: wuzhuangtai00
 facebook_username: 
-weibo_username: cnfeat 
-zhihu_username: feat
+weibo_username: wuzhuangtai00 
+zhihu_username: wuzhuangtai00
 
 # Build settings  
 # use Github Flavored Markdown !important  
