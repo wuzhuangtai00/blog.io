@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: ""
+description: "功能还没有开通啦>_<"
 header-img: "img/green.jpg"
 ---
 

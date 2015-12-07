@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "milestone"
-description: "Nothing Here "
+description: "功能还没有开通啦>_< "
 header-img: "img/zhihu.jpg"
 ---
 
