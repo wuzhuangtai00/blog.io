@@ -6,8 +6,11 @@ comments: true
 categories: 
 ---
 <!--more-->
+<br>
 
 # 树链剖分
+
+<br>
 
 主要思想是利用轻重链对树进行剖分，并且从顶到底的链是O(log n)级别的.用线段树对剖出来的序列进行维护<br>
 <br>
