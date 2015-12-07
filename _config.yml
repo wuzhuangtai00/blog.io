@@ -1,7 +1,7 @@
 # Site settings
 title: 一个只会挖坑的Blog
 header-img: "img/facebook.jpg"
-tagline: "cn"  
+tagline: ""  
 description: "陈素封|读而立·写而生"  
 baseurl: ""
 url: "http://wuzhuangtai00.win"  
@@ -21,7 +21,7 @@ twitter_username: wuzhuangtai00
 github_username: wuzhuangtai00
 facebook_username: 
 weibo_username: wuzhuangtai00 
-zhihu_username: wuzhuangtai00
+zhihu_username: 吴瑾昭
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -44,7 +44,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "CnFeat"
+      author: "wjz"
       header-img: "img/facebook.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 

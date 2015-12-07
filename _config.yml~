@@ -1,27 +1,27 @@
 # Site settings
 title: 一个只会挖坑的Blog
 header-img: "img/facebook.jpg"
-tagline: "cn"  
+tagline: ""  
 description: "陈素封|读而立·写而生"  
 baseurl: ""
-url: "http://cnfeat"  
+url: "http://wuzhuangtai00.win"  
 
 # About/contact
 owner: 
   name: "wjz"
   email: wjzwzt@gmail.com
-  bio: "写就是写的报酬"
+  bio: "Wjz's Blog"
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.png
 
-douban_username:  cnfeat
-twitter_username: feat
-github_username: cnfeat
+douban_username:  wuzhuangtai00
+twitter_username: wuzhuangtai00
+github_username: wuzhuangtai00
 facebook_username: 
-weibo_username: cnfeat 
-zhihu_username: wuzhuangtai00
+weibo_username: wuzhuangtai00 
+zhihu_username: 吴瑾昭
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -44,7 +44,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "CnFeat"
+      author: "wjz"
       header-img: "img/facebook.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
