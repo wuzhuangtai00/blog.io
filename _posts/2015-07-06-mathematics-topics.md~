@@ -15,7 +15,7 @@ categories:
 是一种很有意思的东西
 我们定义两个向量的卷积
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-$$ F(n)=\sum_{i} g(i) \times f(n-i) $$
+$$F(n)=\sum_{i} g(i) \times f(n-i)$$
 很明显直接暴力计算两个向量的卷积是`$O(n^2)$`的
 然而我们可以使用一种特殊的手段使得这个过程变为`$O(nlogn)$`
 <br>

@@ -51,7 +51,7 @@ defaults:
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : cnfeat
+    short_name : wuzhuangtai00
   disqus :
       short_name : wuzhuangtai00
 
