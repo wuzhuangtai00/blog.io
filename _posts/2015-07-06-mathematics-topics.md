@@ -14,6 +14,7 @@ categories:
 <br><br>
 
 # FFT
+
 <br><br>
 是一种很有意思的东西<br>
 <br><br>
@@ -337,7 +338,8 @@ $$=C_n^i (1-1)^{n-i}$$<br>
 ---<br>
 
 <br><br>
-# 奇怪的计数数列<br>
+# 奇怪的计数数列
+
 
 ## Stirling 数<br>
 分为第一类Stirling数与第二类Stirling数<br>

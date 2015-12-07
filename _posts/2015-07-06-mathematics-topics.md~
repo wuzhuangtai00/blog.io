@@ -337,7 +337,8 @@ $$=C_n^i (1-1)^{n-i}$$<br>
 ---<br>
 
 <br><br>
-# 奇怪的计数数列<br>
+# 奇怪的计数数列
+
 
 ## Stirling 数<br>
 分为第一类Stirling数与第二类Stirling数<br>
@@ -576,18 +577,31 @@ $$~~~~~~~~~~~~~~~=\sum_{i=1}^{\lfloor\frac{n}{d}\rfloor}\sum_{j=1}^{\lfloor\frac
 $$~~~~~~~~~~~~~~~=\sum_{i=1}^{\lfloor\frac{n}{d}\rfloor}\sum_{j=1}^{\lfloor\frac{n}{d}\rfloor}\sum_{k|gcd(i,j)}\mu(k)$$<br>
 $$~~~~~~~~~~~~~~~=\sum_{k=1}^{\lfloor\frac{n}{d}\rfloor}\mu(k)\lfloor\frac{n}{kd}\rfloor\lfloor\frac{n}{kd}\rfloor$$<br>
 $$~~~~~~~~~~~~~~~$$再次是喜闻乐见的下底函数分块....<br>
+
 bzoj 2301:同上...<br>
+
 bzoj 1005:球$$\sum_{i=1}^{n}\sum_{j=1}^{n}gcd(i,j)$$<br>
+
 $$~~~~~~~~~~~~~~~$$令$$f(i)$$表示$$gcd(x,y)==i$$的个数。。暴力容斥就没啦...<br>
+
 bzoj 2705:同上...<br>
+
 bzoj 1441:由裴蜀定理易知答案为所有的gcd..<br>
+
 bzoj 2257:首先，根据裴蜀定理，选择几个数字，可以得到的答案为他们的最大公约数<br>
+
 $$~~~~~~~~~~~~~~~$$于是我们可以求出每个数的所有因数，然后排序，找最大的且个数大等于k的因数<br>
+
 bzoj 2299:注意到题目中相当于有4种操作<br>
+
 $$~~~~~~~~~~~~~~~x或y +-2a$$<br>
+
 $$~~~~~~~~~~~~~~~x或y +-2b$$<br>
+
 $$~~~~~~~~~~~~~~~x+a，y+b$$<br>
+
 $$~~~~~~~~~~~~~~~x+b，y+a$$<br>
+
 $$~~~~~~~~~~~~~~~$$而3，4操作最多用1次，枚举3，4使用或不使用然后裴蜀定理判定即可<br>
 bzoj 3667:Miller-Rabin && pollard-rho 板子题.<br>
 bzoj 1923:高斯消元解xor方程组..<br>
