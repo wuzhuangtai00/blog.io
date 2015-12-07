@@ -145,7 +145,9 @@ $$g(n)=\sum_{d|n} \mu(d)f(\frac{n}{d})$$<br>
    然后只有$$n=1$$时$$\sum_{d|n} \mu(d)=1$$，所以上式$$=g(n)$$<br>
    <br><br>
    <br>
----<br>
+   
+---
+
 
 <br><br>
 
@@ -232,7 +234,9 @@ $$ax+by=d$$存在整数解的充分必要条件是$$d|gcd(a,b)$$<br>
 
 <br><br>
 
-# 中国剩余定理<br>
+
+# 中国剩余定理
+
 主要是用于求解线性同余方程组用的..<br>
 对于形如以下的线性同余方程组<br>
 $$ x \equiv c_i ~~ (mod ~~ m_i) \\ \cdots $$<br>
@@ -256,7 +260,9 @@ $$x \equiv a (mod ~~ b) \\ x \equiv c (mod ~~ d)$$<br>
 ---<br>
 
 <br><br>
-# 阶与原根<br>
+
+# 阶与原根
+
 
 对于一个$$a,且(a,m)=1,我们定义a对m的阶是min(r)使得a^r \equiv 1 (mod ~~ m),记为\delta_m(a)$$<br>
 那么定义$$m$$的原根为最小的$$ a使得\delta_m(a)=\phi(a)$$<br>
@@ -268,7 +274,9 @@ $$x \equiv a (mod ~~ b) \\ x \equiv c (mod ~~ d)$$<br>
 ---<br>
 <br><br>
 
-#Miller Rabin && pollard rho<br>
+
+#Miller Rabin && pollard rho
+
 是两种奇怪的概率性算法。<br>
 Miller Rabin是利用小费马<br>
 $$a^p-1 \equiv 1 (mod ~~ p)$$这个性质来判断p是不是质数。为了让正确性进一步提高，它还加入了一个特殊的判断，即如果<br>
@@ -281,16 +289,22 @@ $$a^2 \equiv 1(mod ~~ p)$$，那么$$a \equiv 1 \ or \ p-1 (mod ~~ p)$$<br>
 ---<br>
 
 <br><br>
-# 组合数取模<br>
+
+# 组合数取模
+
 <br><br>
 感谢Stillwell的课件...........<br>
 <br><br>
-## subtask 1<br>
+
+## subtask 1
+
 $$m \leq n \leq 1000，p \leq 10^9$$<br>
 利用$$C_n^m=C_{n-1}^{m-1}+C_{n-1}^{m}$$暴力计算即可<br>
 复杂度$$O(nm)-O(1)$$<br>
 <br><br>
-## subtask 2<br>
+
+## subtask 2
+
 $$m \leq n \leq 10^5,p \leq 10^9 ~~ p$$为质数。<br>
 先介绍一种利用线性筛$$O(n)$$求$$1~n$$的乘法逆元的方法<br>
 是窝自己脑补出来的<br>
@@ -306,25 +320,33 @@ $$C_n^m=\frac{n!}{m! \times (n-m)!}$$<br>
 预处理出来上面那些东西就好啦<br>
 复杂度$$O(n)-O(1)$$<br>
 <br><br>
-## subtask 3<br>
+
+## subtask 3
+
 $$m \leq n \leq 10^{18}，p \leq 10^5$$<br>
 Lucas定理之后就变成了Subtask 2<br>
 复杂度$$O(p)-O(log_p^n)$$<br>
 <br><br>
-## subtask 4<br>
+
+## subtask 4
+
 $$m \leq n \leq 10^5,p \leq 10^5 $$<br>
 首先，我们利用线性筛，筛出$$1-n$$中所有质数，这是$$O(\frac{n}{ln \ n})$$级别的<br>
 然后对于每一个质数$$p$$，它在$$n!$$中出现的次数为$$\sum  \left \lfloor \frac{n}{p^i} \right \rfloor$$<br>
 把上面的暴力计算就好了，复杂度约为$$O(\frac{n}{ln \ n} \times log_{p}^{n} \approx n)$$<br>
 <br><br>
-## subtask 5<br>
+
+## subtask 5
+
 $$m \leq n \leq 10^{18},p^c \leq 10^5 ~~  p$$为质数<br>
 因为涉及除法和方便计算逆元，我们把质因数带$$p$$的不带的分开计算<br>
 容易知道，除去质因数带$$p$$的外，$$\prod_{i=1}^{p^c} \equiv \prod_{i=p^c+1}^{2p^c} ~~ (mod ~~ p^c)$$，所以对于这一部分的只要先预处理出$$1 - p^c$$对$$p^c$$去模之后快速幂即可。<br>
 对于质因数带$$p$$的，可以发现如果提出$$p$$和之前上部分是相似的，因此分治即可。<br>
 时间复杂度$$O(p^c)$$<br>
 <br><br>
-## subtask 6<br>
+
+## subtask 6
+
 会啦会啦<br>
 主要是要快速求$$n!$$<br>
 详见后面的FFT部分<br>
@@ -333,7 +355,9 @@ $$m \leq n \leq 10^{18},p^c \leq 10^5 ~~  p$$为质数<br>
  ---<br>
  <br>
  <br><br>
-# 容斥原理、抽屉原理与二项式反演<br>
+ 
+# 容斥原理、抽屉原理与二项式反演
+
 前两项显然<br>
 二项式反演: 若$$f(n)=\sum_{k=0}^{n} C_n^k g(k)$$<br>
 那么$$g(n)=\sum_{k=0}^{n} (-1)^{n-k}C_n^kf(k)$$<br>
@@ -357,6 +381,7 @@ $$=C_n^i (1-1)^{n-i}$$<br>
 ---<br>
 
 <br><br>
+
 # 奇怪的计数数列
 
 
