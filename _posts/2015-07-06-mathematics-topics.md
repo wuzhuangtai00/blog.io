@@ -503,15 +503,18 @@ $$D_{rev}(x) \equiv A_{rev}(x)[B_{rev}(x)]^{-1} ~~ (mod ~~ x^{n-m+1})$$<br>
 
 ---<br>
 <br><br>
-# BSGS && exBSGS<br>
+# BSGS && exBSGS
+
 主要用于求解$$A^x \equiv B (mod ~~ p)$$这样的问题。<br>
-## BSGS<br>
+## BSGS
+
 $$p$$为质数<br>
 记$$block=\left \lfloor \sqrt{n} \right \rfloor+1$$<br>
 那么可以先暴力算出$$A^{i \times block},1 \leq i \leq block$$，存在hash里<br>
 然后暴力枚举$$A^i,1 \leq i \leq block$$，每次查表即可。<br>
 <br><br>
-## exBSGS<br>
+## exBSGS
+
 $$p$$不为质数。<br>
 首先知道<br>
 $$ad \equiv bc (mod ~~ cd) ~~ -> ~~ a \equiv b (mod ~~ c)$$<br>
@@ -531,7 +534,9 @@ $$if ~~ (B~~mod~~t  \not=0)~~return~~{ -1} $$<br>
 <br><br>
 # 多项式求值，插值<br>
 <br><br>
-## 牛顿插值和拉格朗日插值<br>
+
+## 牛顿插值和拉格朗日插值
+
 <br><br>
 先讲牛顿插值。<br>
 考虑待定系数。<br>
@@ -549,7 +554,9 @@ $$f(x)=\sum_{i=0}^{n} f[x_0,\cdots,x_i](x-x_0)\cdots(x-x_{i-1})$$<br>
 $$p_j(x)=\frac{(x-x_1)\cdots(x-x_{j-1})(x-x_{j+1})\cdots(x-x_n)}{(x_j-x_1)\cdots(x_j-x_{j-1})(x_j-x_{j+1})\cdots(x_j-x_n)} \\   \\f(x)=\sum_{i=1}^{n}y_ip_i(x)$$<br>
 
 <br><br>
-## FFT多点求值、快速插值<br>
+
+## FFT多点求值、快速插值
+
 <br><br>
 ### FFT多点求值<br>
 考虑分治，将询问分组<br>
