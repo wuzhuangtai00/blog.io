@@ -45,7 +45,7 @@ categories:
 
 ---
 
-# 左偏树<br>
+# 左偏树
 
 我萌把一棵树的根到最近叶子节点的距离叫这颗树的深度.<br>
 左偏树就是左儿子深度大于右儿子的一个堆.<br>
@@ -83,7 +83,9 @@ categories:
 
 ---
 <br>
+
 # 树套树
+
 <br>
 用的最多的还是SGT/Treap套func seg<br>
 SGT重建总大小是$$O(nlogn)$$的,treap旋转子树总和期望$$O(nlogn)$$<br>
