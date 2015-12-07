@@ -22,7 +22,7 @@ fsf姐姐带你刷PA www
 【PA2011】Pedestrian Crossing [B] 当年cenbo的模拟赛题...真想回到那个时候啊.. 放在mod k意义下搞一搞就没啦<br>
 【PA2011】Fuel [B]   似乎也是当年在金华一中的模拟题的样子..当时还独立做了出来.当时智商好高啊..   显然最长链更优<br>
 【PA2011】Declining Sequences [B] 注意预处理出来的东西炸ll,所以不能直接二分..鏼棵线段树在线段树上二分就可以了...然而要可持久化..于是波兰人就卡你空间...只能离线搞..<br>
-【PA2011】Double Factorial [B] 唯一的难点是高精度？(雾
-【PA2011】Road Network 2 度数和必须得是$$2n-2$$..然后剩下的可以考虑合并树的样子,从小到大拿,不过要记得留个度给父亲
-【PA2011】Prime prime power $$b \leq 61$$,对$$ b \geq 3$$暴力搞一搞..对$$b=2$$也暴力搞一搞..就没了
-【PA2011】The Shortest Period [B] 调和级数暴力...记得要控制常数...
+【PA2011】Double Factorial [B] 唯一的难点是高精度？(雾<br>
+【PA2011】Road Network 2 度数和必须得是$$2n-2$$..然后剩下的可以考虑合并树的样子,从小到大拿,不过要记得留个度给父亲<br>
+【PA2011】Prime prime power $$b \leq 61$$,对$$ b \geq 3$$暴力搞一搞..对$$b=2$$也暴力搞一搞..就没了<br>
+【PA2011】The Shortest Period [B] 调和级数暴力...记得要控制常数...<br>
