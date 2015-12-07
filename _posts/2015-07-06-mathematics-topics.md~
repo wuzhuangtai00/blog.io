@@ -210,7 +210,7 @@ $$ax+by=d$$存在整数解的充分必要条件是$$d|gcd(a,b)$$<br>
 
 # 拉格朗日定理与威尔逊定理
 
-拉格郎日定理：$If p is a prime && a_(i) are all intergers，f(x)=a_nx^n+a_{n-1}x^{n-1}+ \cdots +a_0，promise that a_n \equaliv 0$$
+拉格郎日定理：$$If p is a prime && a_(i) are all intergers，f(x)=a_nx^n+a_{n-1}x^{n-1}+ \cdots +a_0，promise that a_n \equaliv 0$$
 
 <br>
 那么$$f(x) \equiv 0 ~~ (mod ~~ p)$$ 最多只有$$n$$个解。<br>
@@ -349,7 +349,9 @@ $$m \leq n \leq 10^{18},p^c \leq 10^5 ~~  p$$为质数<br>
 详见后面的FFT部分<br>
  <br><br>
  <br>
- ---<br>
+ 
+ ---
+ <br>
  <br>
  <br><br>
  
@@ -416,13 +418,17 @@ $$M_{n+1}=\frac{(2n+3)M_n+3nM_{n-1}}{n+3}$$<br>
 ---<br>
 
 <br><br>
-# NTT<br>
+
+# NTT
+
 感觉也是蛮显然的..只是把单位根换成了在模意义下的单位根而已..<br>
 
 ---<br>
 
 <br><br>
-# 分治+FFT<br>
+
+# 分治+FFT
+
 可以求解形如$$f_n=\sum_{i=1}^{n-1}f_i*a_{n-i}$$形式的东西..<br>
 考虑cdq分治..<br>
 假设要求出$$(l,r)$$区间的$$f$$<br>
@@ -449,7 +455,7 @@ $$B_(x)^2-2B(x)B_0(x)+B_0(x)^2 \equiv 0 ~~ (mod ~~ x^{2n})$$<br>
 $$B_(x)-2B_0(x)+A(x)B_0(x)^2 \equiv 0 ~~ (mod ~~ x^{2n})$$<br>
 $$B_(x) \equiv B_0(x)(2-A(x)B_0(x)) ~~ (mod ~~ x^{2n})$$<br>
 注意上面的2不是常数2,而是常数列2，所以每项都要减去。<br>
-$$T(n)=T(n/2)+O(nlogn)$$<br>
+$$T(n)=T(n/2)+O(nlogn)$$
 时间复杂度还是$$O(nlogn)$$<br>
 是FFT常数的$$5-10$$倍的样子.........想想FFT的常数还要乘上个$$5$$倍真是令人感动。<br>
 
