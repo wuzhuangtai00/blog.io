@@ -8,6 +8,9 @@ categories:
 <!--more-->
 <br>
 
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 # 树链剖分
 
 <br>
