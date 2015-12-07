@@ -1,5 +1,5 @@
 # Site settings
-title: wjz
+title: 读立写生
 header-img: "img/facebook.jpg"
 tagline: "cn"  
 description: "陈素封|读而立·写而生"  
@@ -8,8 +8,8 @@ url: "http://cnfeat"
 
 # About/contact
 owner: 
-  name: "wjz"
-  email: wjzwzt@gmail.com
+  name: " CnFeat"
+  email: CnFeat@gmail.com
   bio: "写就是写的报酬"
 
 # Data
