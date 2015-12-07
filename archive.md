@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Archive"
-description: "Some Blogs"
+description: "The Past Time"
 header-img: "img/orange.jpg"
 ---
 
