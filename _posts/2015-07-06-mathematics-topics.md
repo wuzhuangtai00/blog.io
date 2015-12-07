@@ -210,7 +210,7 @@ $$ax+by=d$$存在整数解的充分必要条件是$$d|gcd(a,b)$$<br>
 
 # 拉格朗日定理与威尔逊定理
 
-拉格郎日定理：$$If p is a prime and a_(i) are all intergers，f(x)=a_nx^n+a_{n-1}x^{n-1}+ \cdots +a_0，promise that a_n \equiv 0$$
+拉格郎日定理：$$If~p~is~a~prime~and~a_i~are~all~intergers~f(x)=a_nx^n+a_{n-1}x^{n-1}+ \cdots +a_0,~which~promise~ that ~a_n~not ~\equiv ~0(mod ~ p)$$
 
 <br>
 那么$$f(x) \equiv 0 ~~ (mod ~~ p)$$ 最多只有$$n$$个解。<br>
