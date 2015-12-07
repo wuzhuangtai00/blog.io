@@ -5,6 +5,7 @@ date: 2015-10-18 11:40
 comments: true
 categories: 
 ---
+
 <div align="center"><span style="font-size:80px;color:#7bbfea;"   >10/40</span></p></div>
 ---
  <br><!--more-->
@@ -15,7 +16,7 @@ categories:
  <br>4.MAR08 列出DP方程之后斜率优化
  <br>5.OPEN08 曼哈顿最小生成树之后利用环切性质搞一搞就好啦
  <br>6.JAN09 构出最短路树之后考虑非树边.显然对于每一个非树边,按照dis[u]+dis[v]+w[u][v]排序之后做就可以了.
- <br>7.MAR09 显然答案不会大于n.那么如果暴力转移的时候色数已经超过`$\sqrt n$`就跑就可以啦w
+ <br>7.MAR09 显然答案不会大于n.那么如果暴力转移的时候色数已经超过$\sqrt n$就跑就可以啦w
  <br>8.NOV08 sb线段树..标记的下传方面要注意点..
  <br>9.DEC10 贪心地剪.判断用SAM
  <br>10.MAR10 变换坐标之后扫描线
