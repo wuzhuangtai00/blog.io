@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '颓废实录'
+title: 'A New Life'
 date: 2015-10-05 12:19
 comments: true
 categories: 
