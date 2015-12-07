@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'USACO杂做'
+date: 2015-10-18 11:40
+comments: true
+categories: 
+---
+
+
+
+<br>
+<div align="center"><span style="font-size:80px;color:#7bbfea;"   >10/40</span></p></div>
+<br>
+
+---
+<!--more-->
+1.DEC06 像KMP一样摞一摞就好啦
+2.OPEN07 SHOI traffic...
+3.DEC07 Suffix _ Array
+4.MAR08 列出DP方程之后斜率优化
+5.OPEN08 曼哈顿最小生成树之后利用环切性质搞一搞就好啦
+6.JAN09 构出最短路树之后考虑非树边.显然对于每一个非树边,按照dis[u]+dis[v]+w[u][v]排序之后做就可以了.
+7.MAR09 显然答案不会大于n.那么如果暴力转移的时候色数已经超过`$\sqrt n$`就跑就可以啦w
+8.NOV08 sb线段树..标记的下传方面要注意点..
+9.DEC10 贪心地剪.判断用SAM
+10.MAR10 变换坐标之后扫描线
+
+---
+![未命名.jpg](http://user-image.logdown.io/user/12229/blog/11527/post/305296/OmvHNtQemJZpH8eRCBA0_%E6%9C%AA%E5%91%BD%E5%90%8D.jpg)
+所以此坑暂停..?
