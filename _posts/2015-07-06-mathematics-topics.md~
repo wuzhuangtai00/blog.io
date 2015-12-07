@@ -508,9 +508,11 @@ $$D_{rev}(x) \equiv A_{rev}(x)[B_{rev}(x)]^{-1} ~~ (mod ~~ x^{n-m+1})$$<br>
 
 ---<br>
 <br><br>
+
 # BSGS && exBSGS
 
 主要用于求解$$A^x \equiv B (mod ~~ p)$$这样的问题。<br>
+
 ## BSGS
 
 $$p$$为质数<br>
