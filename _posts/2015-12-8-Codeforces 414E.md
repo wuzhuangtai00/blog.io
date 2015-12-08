@@ -10,7 +10,7 @@ categories:
 看了下题解...发现的确可以用维护dfs序来搞.<br>
 具体做法就是..<br>
 操作1,2用lct做就好啦<br>
-操作3的话....对dfs序搞个upper,lower...表示这个区间内的deep范围..然后打个tag就能兹磁区间剪切了>_<<br>
+操作3的话....对dfs序搞个upper,lower...表示这个区间内的deep范围..然后打个tag就能兹磁区间剪切了>_< <br>
 用fhq_treap维护一下就好了<br>
 ![image](http://7xoz7t.com1.z0.glb.clouddn.com/未命名.jpg)<br>
 Excited!
