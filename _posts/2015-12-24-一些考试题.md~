@@ -23,4 +23,4 @@ Sol:<br>
 因为考虑..如果$$i$$对$$j$$能产生贡献..那么就要求$$i$$是$$j$$路径上第一个被选中的..这个概率就是$$\frac{1}{dist(i,j)+1}$$<br>
 那么环套树上..如果在一棵树上..就还是上面那个式子<br>
 不然就是第一路径联通概率加上第二路径联通概率减去两个路径都联通概率<br>
-即$$\frac{1}{dist_1(i,j)}+\frac{1}{dist_2(i,j)}-\frac{1}{dist_{tocycle}(x)+dist_{tocycle}(y)+|cycle|$$<br>
+即$$\frac{1}{dist_1(i,j)}+\frac{1}{dist_2(i,j)}-\frac{1}{dist_{tocycle}(x)+dist_{tocycle}(y)+|cycle|}$$<br>
