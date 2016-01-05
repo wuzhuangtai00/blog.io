@@ -12,7 +12,7 @@ categories:
 
 <br>
 <br>
-<div align="center"><span style="font-size:80px;color:#7bbfea;"   >２</span></p></div>
+<div align="center"><span style="font-size:80px;color:#7bbfea;"   >2</span></p></div>
 <br>
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
@@ -56,3 +56,13 @@ categories:
 考虑三个特殊点情况。只可能是Y形或一条链。一条链就枚举中间特殊点。Y形就枚举中间点。套用算法二进行计算就好啦
 
 时间复杂度$$O(n^2logn)$$
+
+---
+
+2015.1.5 SRM 603 1000pts
+
+题意:给你两个数组$A[i],B[i]$,任意排列$$A,B$$使得$$C[i]=A[i]+B[i]$$的众数出现次数最多.$$A[i],B[i] \leq 10^5,n \leq 10^5 $$
+
+**sol:**
+
+
