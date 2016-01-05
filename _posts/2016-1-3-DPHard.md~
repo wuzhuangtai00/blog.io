@@ -67,4 +67,4 @@ categories:
 
 先考虑一个暴力...对于数$$x$$,显然答案为$$\sum_i min(sum[i],sum[x-i])$$
 
-$$\sum_i min(sum[i],sum[x-i])$$
+又有$$\sum_i min(sum[i],sum[x-i])=\sum_k \sum_i [sum[i]>=k]\times [sum[x-i]>=k]$$
