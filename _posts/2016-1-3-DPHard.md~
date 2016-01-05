@@ -71,4 +71,5 @@ categories:
 
 于是对$$k$$进行分块..$$k \leq limit$$时FFT,$$k \geq limit$$时暴力
 
-复杂度为$$O(\frac{n}{L}^2+Lnlogn)$$
+复杂度为$$O(\frac{n}{L}^2+Lnlogn)$$,$$L$$取10左右最优
+
