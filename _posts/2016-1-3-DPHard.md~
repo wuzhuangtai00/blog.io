@@ -67,9 +67,9 @@ categories:
 
 先考虑一个暴力...对于数$$x$$,显然答案为$$\sum_i min(sum[i],sum[x-i])$$
 
-又有$$\sum_i min(sum[i],sum[x-i])=\sum_k \sum_i [sum[i]>=k]\times [sum[x-i]>=k]$$
+又有$$\sum_i min(sum[i],sum[x-i])=\sum_k \sum_i [sum[i]　\geq k]\times [sum[x-i] \geq k]$$
 
-于是对$$k$$进行分块..$$k \leq limit$$时FFT,$$k \geq limit$$时暴力
+于是对$$k$$进行分块..$$k \leq Limit$$时FFT,$$k \geq Limit$$时暴力
 
 复杂度为$$O(\frac{n}{L}^2+Lnlogn)$$,$$L$$取10左右最优
 
