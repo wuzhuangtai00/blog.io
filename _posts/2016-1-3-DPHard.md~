@@ -12,7 +12,7 @@ categories:
 
 <br>
 <br>
-<div align="center"><span style="font-size:80px;color:#7bbfea;"   >3</span></p></div>
+<div align="center"><span style="font-size:80px;color:#7bbfea;"   >5</span></p></div>
 <br>
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
@@ -87,5 +87,19 @@ categories:
 
 ![](http://7xoz7t.com1.z0.glb.clouddn.com/597.jpg)
 
+注意到新生成的序列也要求相隔两两不同。并且新生成的序列的每个颜色数量也是能确定的
 
+那么窝们考虑对新生成的序列来进行数数。先枚举最开始的颜色。然后把最开始的颜色一股脑都撒下去。这会产生一些空。就需要剩下两种颜色去填空.
+
+考虑这些空的奇偶性。对于一个空，如果它的长度是奇数，那么就会对两个颜色之间的数量差距产生$$+1/-1$$的代价。否则对两个颜色之间的数量差不产生代价。
+
+而且窝们已经知道了这两种的颜色的数量差。那么只要枚举奇数长度的空。就能知道每种空的个数了。这样乘上一个组合数就能计算贡献了。
+
+剩下的唯一的问题就是计算有$$w$$个奇数空的方案数。窝们考虑把奇数空补1个变成偶数空，然后每个空缩一半之后就随便切了。所以易得计算公式为$$C_{\frac{其他两种颜色+w}{2}-1}^{空数-1}\times C_{空数}{w}$$,容易证明这两种方式是等价的。
+
+---
+
+### 2015.1.7 SRM486 1000pts
+
+题意:
 
