@@ -5,7 +5,7 @@ date: 2016-1-11 17:17
 comments: true
 categories: 
 ---
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 故事要从去年的5月份说起。
 
 当时窝在写QTree4...对着FullpowerX的代码写的..当时的写法是在点分树的每个点都向它到它到根的所有路径上的点连边。这样空间复杂度是
