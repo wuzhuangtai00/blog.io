@@ -1,0 +1,24 @@
+---
+layout: post
+title: '最近写的若干道莫比乌斯反演'
+date: 2016-1-14 10:15
+comments: true
+categories: 
+---
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+莫比乌斯反演:
+
+$$F(n)=\sum_{d|n}f(d) \Rightarrow f(n)=\sum_{d|n}F(d) \mu(\frac{n}{d})$$
+
+实质上就是容斥
+
+还有一种形式是
+
+$$F(n)=\sum_{n|d}f(d) \Rightarrow f(n)=\sum_{n|d}F(n) \mu(\frac{d}{n})$$
+
+---
+
+$$\sum_{i=1}^{n} \sum_{j=1}^{m}f(gcd(i,j))\\
+=\sum_{d=1}^{n} f(d) \sum_{i=1}^{\lfloor \frac{}}\\
+
+$$
