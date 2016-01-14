@@ -6,8 +6,6 @@ comments: true
 categories: 
 
 ---
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 莫比乌斯反演:
 
 $$F(n)=\sum_{d|n}f(d) \Rightarrow f(n)=\sum_{d|n}F(d) \mu(\frac{n}{d})$$
