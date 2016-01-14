@@ -87,4 +87,7 @@ $$F$$显然$$O(sqrt(n))$$可求.再对答案也$$\sqrt(n)$$分块，窝们可以
 
 有没有更好的复杂度呢?窝们继续化简.
 
+$$\sum_{d=1}^{n}d\times F(\lfloor\frac{n}{d}\rfloor,\lfloor\frac{m}{d}\rfloor)\\
+=\sum_{d=1}^{n}d\times\sum_{d=1}^{\lfloor\frac{n}{d}\rfloor}\mu(d)d^2\sum_{i=1}^{\lfloor\frac{n}{id}\rfloor}i\sum_{j=1}^{\lfloor\frac{m}{id}\rfloor}j\\
+=\sum_{d=1} Sum(\lfloor\frac{n}{d}\rfloor,\lfloor\frac{m}{d}\rfloor)\times\sum_{d|}$$
 
