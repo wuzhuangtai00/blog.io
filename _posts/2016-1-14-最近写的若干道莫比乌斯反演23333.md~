@@ -85,5 +85,6 @@ $$=\sum_{d=1}^{n} d \sum_{i=1}^{\lfloor\frac{n}{d}\rfloor}\sum_{j=1}^{\lfloor\fr
 
 $$F$$显然$$O(sqrt(n))$$可求.再对答案也$$\sqrt(n)$$分块，窝们可以得到$$O(n)$$单组询问的方法.
 
+有没有更好的复杂度呢?窝们继续化简.
 
 
