@@ -30,7 +30,9 @@ $$\sum_{i=1}^{n} \sum_{j=1}^{m}f(gcd(i,j))\\
 =\sum_{d=1}^{n} f(d) \sum_{d'=1}^{\lfloor \frac{n}{d} \rfloor} \mu(d') \lfloor \frac{n}{dd'} \rfloor\lfloor \frac{m}{dd'} \rfloor\\
 $$
 
-令$$g(n)=\sum_{d|n}f(d)\mu(d')$$
+令
+
+$$g(n)=\sum_{d|n}f(d)\mu(d')$$
 
 继续化简原式
 
