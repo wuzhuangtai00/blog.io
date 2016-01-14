@@ -96,5 +96,34 @@ $$\sum_{d=1}^{n}d\times F(\lfloor\frac{n}{d}\rfloor,\lfloor\frac{m}{d}\rfloor)\\
 =\sum_{i=1} Sum(\lfloor\frac{n}{i}\rfloor,\lfloor\frac{m}{i}\rfloor)\times\sum_{d|i}\mu(d)d^2\frac{n}{d}\\
 =\sum_{i=1} Sum(\lfloor\frac{n}{i}\rfloor,\lfloor\frac{m}{i}\rfloor)\times\sum_{d|i}\mu(d)nd$$
 
-后面的东西是能线性筛的...因为首先它是积性函数..如果遇到$$i%prime[j]==0$$
+后面的东西是能线性筛的...因为首先它是积性函数..如果遇到$$i%prime[j]==0$$新加进去的$$\mu$$都为0,只要把它乘上$$prime[j]$$即可
 
+---
+
+GCD_Array
+
+
+  1. Add v to ax for every x that gcd(x,n)=d.
+  2. Query $$\sum_{i=1}^{x} a_i$$
+ 
+窝用了个很麻烦的办法来证明..问了下fsf..觉得比窝不知道高到哪里去了
+
+考虑某次操作对位置$$x$$的贡献
+
+$$v \times [gcd(x,n)==d]\\
+=v \times [gcd (\frac{x}{d},\frac{n}{d})==1]\\
+=v \times \sum_{i|\frac{x}{d},i|\frac{n}{d}}\mu(i)$$
+
+然后把$$\frac{n}{d}$$交给修改,$$\frac{x}{d}$$交给询问.
+
+即在修改时,把所有$$id$$使得$$i|\frac{n}{d}$$的数加上$$v\times \mu(i)$$
+
+在询问时，即相当于询问$$\sum_{i=1}^{x} \frac{x}{i} a_i$$
+
+这个分块+维护前缀和即可.
+
+感受到了智商的碾压.
+
+---
+
+求$$\sum_{i=1}^{n}$$
