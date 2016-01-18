@@ -81,4 +81,4 @@ $$f(S)=2^{edge(x)}-\sum 2^{edge(S-T,T)+edge(S-T)} \times g(T)$$
 
 令$$P[i]$$表示$$i$$次后仍然没有全黑的几率，那么可得
 
-$$Ans=\sum_{i=0}^{\infty}P[i]$$
+$$Ans=\sum_{i=0}^{\infty}$$
