@@ -12,7 +12,7 @@ categories:
 
 <br>
 <br>
-<div align="center"><span style="font-size:80px;color:#7bbfea;"   >15</span></p></div>
+<div align="center"><span style="font-size:80px;color:#7bbfea;"   >16</span></p></div>
 <br>
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
@@ -170,7 +170,7 @@ $$f[i][S]$$表示放到第$$i$$个,目前高度状态是$$S$$的方案数。转�
 
 数据保证fsf每天最多只去两个花田.
 
-问fsf采花的方案书
+问fsf采花的方案数
 
 **sol:**
 
@@ -270,3 +270,18 @@ $$f[i][j-A[i]][k+B[i]-1]+=f[i-1][j][k] \times C[j][A[i]] \times fac[A[i]] \times
 
 最后统计一下时间把它鏼进set里
 
+---
+
+### 2016.1.18 SRM595 900pts
+
+题意:平面上有$$n$$只fsf,每只fsf被人发现的几率是$$p[i]$$,问被发现的fsf组成的凸包面积的期望值.保证没有任意两个fsf在同样的位置.
+
+**sol:**
+
+能想到到对每一个凸包按原点开始算面积.这题就很简单了.
+
+考虑对每一条有向边计算贡献(即从原点来看的有向面积)。它在凸包上当且仅当没有点在它右边。然后就能算出它在凸包上的期望,再乘上它的面积就是它对答案的贡献.
+
+时间复杂度$$O(n^3)$$
+
+这题如果有重(chong)点似乎很麻烦..想了很久不太清楚..大概是要重点算上和重点不算两种都算一算取平均值的样子.
