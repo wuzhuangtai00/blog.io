@@ -12,7 +12,7 @@ categories:
 
 <br>
 <br>
-<div align="center"><span style="font-size:80px;color:#7bbfea;"   >16</span></p></div>
+<div align="center"><span style="font-size:80px;color:#7bbfea;"   >17</span></p></div>
 <br>
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
@@ -248,9 +248,9 @@ $$f[i][j-A[i]][k+B[i]-1]+=f[i-1][j][k] \times C[j][A[i]] \times fac[A[i]] \times
 
 所以窝们要转移的下界已经找到了.上界显然就是最近的一个$$w$$。
 
-这是不是就是全部的转移范围了呢？显然不是。因为这个尾巴字符串可以不包含$$o$$。然而注意到这个$$o$$又不能出现在前半部分。所以得把现在的长度缩小一般接着找。
+这是不是就是全部的转移范围了呢？显然不是。因为这个尾巴字符串可以不包含$$o$$。然而注意到这个$$o$$又不能出现在前半部分。所以得把现在的长度缩小一半接着找。
 
-注意到每次缩小一般，所以可行的转移范围不超过$$O(logn)$$,所以最终时间复杂度为$$O(nlogn)$$
+注意到每次缩小一半，所以可行的转移范围不超过$$O(logn)$$,所以最终时间复杂度为$$O(nlogn)$$
 
 <del>wxowxo!</del>
 
@@ -285,3 +285,17 @@ $$f[i][j-A[i]][k+B[i]-1]+=f[i-1][j][k] \times C[j][A[i]] \times fac[A[i]] \times
 时间复杂度$$O(n^3)$$
 
 这题如果有重(chong)点似乎很麻烦..想了很久不太清楚..大概是要重点算上和重点不算两种都算一算取平均值的样子.
+
+---
+
+### 2016.1.19 SRM589 900pts
+
+题意:
+
+fsf有$$n$$条裙子,每条裙子是黑色或者白色.给定$$m$$,一个裙子序列被fsf喜欢当且仅当这个裙子序列的前$$n-m$$条和后$$n-m$$是一样的.
+
+现在fsf有两种操作可以干
+
+- 把某条裙子的颜色改变
+
+- 把前$$km$$条裙子改变颜色,$$k \in Z$$
