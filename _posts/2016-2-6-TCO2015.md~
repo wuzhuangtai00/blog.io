@@ -14,7 +14,7 @@ categories:
 <div align="center"><span style="font-size:80px;color:#7bbfea;"   >2</span></p></div>
 <br>
 
-## Round 1A
+### Round 1A
 
 **Sol:**
 
@@ -22,7 +22,7 @@ categories:
 
 时间复杂度$$O(2^n n)$$
 
-## Round 1B
+### Round 1B
 
 **Sol:**
 
